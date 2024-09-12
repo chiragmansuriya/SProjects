@@ -11,7 +11,7 @@ EXCHANGERATE_API_KEY = os.getenv("EXCHANGERATE_API_KEY")
 
 model = genai.GenerativeModel('gemini-1.5-flash')
 
-user_input = input("Enter currency for convert (For Ex. USD to INR): ")
+user_input = input("Please enter your query for currency exchange: ")
 
 prompt = """
 You are provided with an Exchange Rates API endpoint and a user prompt.
